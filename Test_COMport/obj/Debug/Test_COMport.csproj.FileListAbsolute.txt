@@ -1,0 +1,10 @@
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\bin\Debug\Test_COMport.exe.config
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\bin\Debug\Test_COMport.exe
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\bin\Debug\Test_COMport.pdb
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.csprojAssemblyReference.cache
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.Form1.resources
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.Properties.Resources.resources
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.csproj.GenerateResource.cache
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.csproj.CoreCompileInputs.cache
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.exe
+C:\Users\t-matejka\source\repos\Test_COMport\Test_COMport\obj\Debug\Test_COMport.pdb
