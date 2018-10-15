@@ -50,6 +50,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btn_Open
             // 
@@ -63,6 +64,7 @@
             // 
             // btn_Close
             // 
+            this.btn_Close.Enabled = false;
             this.btn_Close.Location = new System.Drawing.Point(255, 103);
             this.btn_Close.Name = "btn_Close";
             this.btn_Close.Size = new System.Drawing.Size(75, 23);

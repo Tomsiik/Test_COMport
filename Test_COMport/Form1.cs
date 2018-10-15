@@ -28,8 +28,10 @@ namespace Test_COMport
         private void Form1_Load(object sender, EventArgs e)
         {
             string[] ports = SerialPort.GetPortNames();
+            
             comboBox1.DataSource = ports;
             serialPort1.Close();
+            
         }
 
         private void btn_Open_Click(object sender, EventArgs e)
@@ -39,6 +41,12 @@ namespace Test_COMport
                 serialPort1.BaudRate = 115200;
                 serialPort1.Open();
              }
+            else
+            {
+                btn_Close.Enabled = true;
+                btn_Open.Enabled = false;
+            }
+
 
         }
 
@@ -47,6 +55,8 @@ namespace Test_COMport
             if (serialPort1.IsOpen)
             {
                 serialPort1.Close();
+                btn_Close.Enabled = false;
+                btn_Open.Enabled = true;
             }
         }
 
@@ -70,6 +80,9 @@ namespace Test_COMport
            textBox1.Text = textBox1.Text + message + Environment.NewLine;
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
